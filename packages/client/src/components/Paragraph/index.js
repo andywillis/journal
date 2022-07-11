@@ -1,3 +1,5 @@
+import styles from './styles.module.css';
+
 export default function Paragraph(data) {
-  return `<p>${data.text}</p>`;
+  return `<p class=${styles.paragraph}>${data.text}</p>`;
 }

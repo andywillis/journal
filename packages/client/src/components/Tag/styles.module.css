@@ -1,0 +1,2 @@
+.tag { font-size: 0.7em; border-radius: 5px; padding: 0.2em 0.4em; display: inline; border: 1px solid #454545; background-color: rgb(220, 240, 230); }
+.tag:not(:last-child) { margin-right: 0.4em; }
