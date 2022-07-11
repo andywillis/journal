@@ -1,12 +1,12 @@
-import renderPosts from './components/Posts';
+import renderBlog from './components/Blog';
 import fetchData from './helpers/fetchData';
 
 import './style.module.css';
 
-async function renderBlog() {
+async function main() {
   const data = await fetchData('/blog');
-  return renderPosts(data);
+  return renderBlog(data);
 }
 
-const html = await renderBlog();
-document.body.innerHTML = html;
+const blog = await main();
+document.body.innerHTML = blog;
