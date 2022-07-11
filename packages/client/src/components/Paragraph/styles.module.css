@@ -1,1 +1,2 @@
-.paragraph:not(:last-child) { margin-bottom: 0.5em; }
+.paragraph { font-size: 0.8em;}
+.paragraph:not(:last-child) { margin-bottom: 1em; }
