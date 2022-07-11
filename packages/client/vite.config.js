@@ -6,10 +6,11 @@ import { splitVendorChunkPlugin } from 'vite'
 
 export default defineConfig({
   plugins: [ compress(), splitVendorChunkPlugin() ],
+  root: 'src',
   server: {
     proxy: {
       '/blog': {
-        target: 'https://localhost:4000',
+        target: 'http://localhost:4000',
         secure: false,
         changeOrigin: true
       }

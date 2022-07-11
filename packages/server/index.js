@@ -8,6 +8,8 @@ import DraftLog from 'draftlog';
 
 import 'dotenv/config';
 
+import blog from './data/blog.json' assert { type: 'json' };
+
 DraftLog(console);
 
 const __filename = fileURLToPath(import.meta.url);
@@ -27,7 +29,7 @@ server.listen(port, () => {
 });
 
 app.get('/blog', (req, res) => {
-  res.json({ status: 'success' });
+  res.send(blog);
 });
 
 app.get('/', (req, res) => {
