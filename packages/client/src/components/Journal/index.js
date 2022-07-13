@@ -4,11 +4,11 @@ import Footer from '../Footer';
 
 import styles from './styles.module.css';
 
-export default function Journal(data) {
+export default function Journal(posts) {
   return (`
     <main class="${styles.blog}">
       ${Header()}
-      ${Posts(data)}
+      ${Posts(posts)}
       ${Footer(`© Andy Willis ${new Date().getFullYear()}`)}
     </main>
   `);

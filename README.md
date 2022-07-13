@@ -1,6 +1,6 @@
-# Blog
+# Journal
 
-Simple vanilla blog.
+Simple vanilla JS blog.
 
 ## Licence
 
