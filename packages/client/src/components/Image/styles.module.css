@@ -13,7 +13,7 @@
   border-radius: 7.5px;
   width: 100%;
   height: auto;
-  animation: fadeIn 1s linear;
+  animation: fadeIn 2s linear;
 }
 
 @keyframes fadeIn {
