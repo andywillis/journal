@@ -1,5 +1,5 @@
 import Journal from './components/Journal';
-import fetchData from './helpers/fetchData';
+import fetchData from './api/fetchData';
 
 import './style.module.css';
 
