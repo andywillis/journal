@@ -33,5 +33,5 @@ app.get('/journal', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ status: 'success' });
+  res.send(200);
 });
