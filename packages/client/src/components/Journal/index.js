@@ -4,10 +4,10 @@ import Footer from '../Footer';
 
 import styles from './styles.module.css';
 
-export default function Blog(data) {
+export default function Journal(data) {
   return (`
     <main class="${styles.blog}">
-      ${Header('Vanilla JS Blog')}
+      ${Header()}
       ${Posts(data)}
       ${Footer(`© Andy Willis ${new Date().getFullYear()}`)}
     </main>

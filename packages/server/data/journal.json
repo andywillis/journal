@@ -1,19 +1,24 @@
 [
 	{
-		"date": "Monday, 11 July 2022",
-		"title":"Mormon Blues",
-		"paragraphs" :[
-			{ "text": "No-one knows the Mormon Blues better than I. Once in a while I consider my position in the universe."},
-			{ "text": "Everyone knows the Moomin Blues better than I."}
+		"id": 0,
+		"title": "Ramsgate Sands",
+		"date": "Tuesday, 18 December 2018",
+		"link": "ramsgate-sands-0",
+		"paragraphs": [
+			{
+				"id": 0,
+				"type": "para",
+				"html": "This is the view from the other side of Sandwich Bay where it hugs the Cliffsend coast to the south of Ramsgate Harbour. This looks back toward the Bay, and is the outer reach of the low tide. Here the North Sea drains away to leave vast stretches of sand for the thousands of sea birds that make their home here." },
+			{
+				"id": 1,
+				"type": "image",
+				"src": "https://farm5.staticflickr.com/4911/31469292557_c51423babb.jpg",
+				"alt": "Ramsgate Sands 800x449"
+			}
 		],
-		"tags": ["mormon", "moomin", "blues"]
-	},
-	{
-		"date": "Sunday, 10 July 2022",
-		"title":"Buddhist Blues",
-		"paragraphs" :[
-			{ "text": "No-one knows the Buddhist Blues better than I."}
-		],
-		"tags": ["buddhist", "blues"]
+		"tags": [
+			{ "id": 0, "tag": "ramsgatesands" },
+			{ "id": 1, "tag": "sunset" }
+		]
 	}
 ]

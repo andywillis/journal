@@ -2,12 +2,10 @@ import Post from '../Post';
 
 import styles from './styles.module.css';
 
-export default function Posts(data) {
+export default function Posts(posts) {
   return (`
     <div class="${styles.posts}">
-      ${data.map(post => {
-        return Post(post);
-      }).join('')}
+      ${posts.map(Post).join('')}
     </div>
   `);
 }

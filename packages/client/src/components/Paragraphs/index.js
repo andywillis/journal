@@ -1,7 +1,5 @@
 import Paragraph from '../Paragraph';
 
-export default function Paragraphs(data) {
-  return data.map(para => {
-    return Paragraph(para);
-  }).join('');
+export default function Paragraphs(paras) {
+  return paras.map(Paragraph).join('');
 }

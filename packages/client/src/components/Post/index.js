@@ -5,8 +5,8 @@ import Title from '../Title';
 
 import styles from './styles.module.css';
 
-export default function Post(data) {
-  const { date, title, paragraphs, tags } = data;
+export default function Post(post) {
+  const { date, title, paragraphs, tags } = post;
   return (`
     <div class="${styles.post}">
       ${Title(title)}

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 export default function Tags(data) {
   return (`
     <div class=${styles.tags}>
-      ${data.map(tag => Tag(tag)).join('')}
+      ${data.map(Tag).join('')}
     </div> 
   `);
 }
