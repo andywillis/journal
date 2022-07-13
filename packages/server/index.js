@@ -8,7 +8,7 @@ import DraftLog from 'draftlog';
 
 import 'dotenv/config';
 
-import blog from './data/blog.json' assert { type: 'json' };
+import journal from './data/journal.json' assert { type: 'json' };
 
 DraftLog(console);
 
@@ -28,8 +28,8 @@ server.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
-app.get('/blog', (req, res) => {
-  res.send(blog);
+app.get('/journal', (req, res) => {
+  res.send(journal);
 });
 
 app.get('/', (req, res) => {

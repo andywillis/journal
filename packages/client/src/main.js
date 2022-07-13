@@ -4,7 +4,7 @@ import fetchData from './helpers/fetchData';
 import './style.module.css';
 
 async function main() {
-  const data = await fetchData('/blog');
+  const data = await fetchData('/journal');
   return renderBlog(data);
 }
 
