@@ -8,7 +8,7 @@ import 'dotenv/config';
 
 import routes from './routes';
 
-import journal from './data/journal' assert { type: 'json' };
+import journal from './data/journal_old2' assert { type: 'json' };
 
 DraftLog(console);
 

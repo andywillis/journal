@@ -1,4 +1,4 @@
-.posts {
+.entries {
 	display: flex;
 	flex-direction: column;
 	margin: 0px auto;
@@ -6,7 +6,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .posts {
+  .entries {
     width: 75%;
   }
 }

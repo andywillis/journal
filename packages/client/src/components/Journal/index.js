@@ -1,14 +1,14 @@
 import Header from '../Header';
-import Posts from '../Posts';
+import Entries from '../Entries';
 import Footer from '../Footer';
 
 import styles from './styles.module.css';
 
-export default function Journal(posts) {
+export default function Journal(journal) {
   return (`
-    <main class="${styles.blog}">
+    <main class="${styles.journal}">
       ${Header()}
-      ${Posts(posts)}
+      ${Entries(journal.entries)}
       ${Footer(`© Andy Willis ${new Date().getFullYear()}`)}
     </main>
   `);

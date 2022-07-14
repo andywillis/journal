@@ -1,17 +1,17 @@
 import Date from '../Date';
-import Paragraphs from '../Paragraphs';
+import Body from '../Body';
 import Tags from '../Tags';
 import Title from '../Title';
 
 import styles from './styles.module.css';
 
-export default function Post(post) {
-  const { date, title, paragraphs, tags } = post;
+export default function Entry(entry) {
+  const { date, title, body, tags } = entry;
   return (`
-    <div class="${styles.post}">
+    <div class="${styles.entry}">
       ${Title(title)}
       ${Date(date)}
-      ${Paragraphs(paragraphs)}
+      ${Body(body)}
       ${Tags(tags)}
     </div>
   `);

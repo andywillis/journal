@@ -8,5 +8,5 @@ async function main() {
   return Journal(data);
 }
 
-const blog = await main();
-document.body.innerHTML = blog;
+const journal = await main();
+document.body.innerHTML = journal;
