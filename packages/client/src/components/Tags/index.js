@@ -4,8 +4,8 @@ import styles from './styles.module.css';
 
 export default function Tags(data) {
   return (`
-    <div class=${styles.tags}>
-      ${data.map(tag => Tag(tag)).join('')}
-    </div> 
+    <ul class=${styles.tags}>
+      ${data.map(Tag).join('')}
+    </ul> 
   `);
 }

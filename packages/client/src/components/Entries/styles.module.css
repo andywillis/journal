@@ -1,0 +1,12 @@
+.entries {
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	width: 90%;
+}
+
+@media only screen and (min-width: 600px) {
+  .entries {
+    width: 75%;
+  }
+}

@@ -1,6 +1,4 @@
-import fs from 'fs';
 import path, { dirname } from 'path';
-import https from 'https';
 import http from 'http';
 import express from 'express';
 import { fileURLToPath } from 'url';
@@ -8,7 +6,9 @@ import DraftLog from 'draftlog';
 
 import 'dotenv/config';
 
-import journal from './data/journal.json' assert { type: 'json' };
+import routes from './routes';
+
+import journal from './data/journal_old2' assert { type: 'json' };
 
 DraftLog(console);
 
@@ -28,10 +28,6 @@ server.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
-app.get('/journal', (req, res) => {
-  res.send(journal);
-});
-
-app.get('/', (req, res) => {
-  res.json({ status: 'success' });
-});
+// app.get('/sse', routes.sse());
+app.get('/journal', routes.journal(journal));
+app.get('/', routes.root());
