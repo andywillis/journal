@@ -9,11 +9,11 @@
             [
                 {
                     "id": 0,
-                    "txt": "ramsgatesands"
+                    "text": "ramsgatesands"
                 },
                 {
                     "id": 1,
-                    "txt": "sunset"
+                    "text": "sunset"
                 }
             ],
             "link": "ramsgate-sands-14",
@@ -41,19 +41,19 @@
             [
                 {
                     "id": 0,
-                    "txt": "sandwichbay"
+                    "text": "sandwichbay"
                 },
                 {
                     "id": 1,
-                    "txt": "beach"
+                    "text": "beach"
                 },
                 {
                     "id": 2,
-                    "txt": "autumn"
+                    "text": "autumn"
                 },
                 {
                     "id": 3,
-                    "txt": "lowtide"
+                    "text": "lowtide"
                 }
             ],
             "link": "sandwich-bay-kent-13",
@@ -87,15 +87,15 @@
             [
                 {
                     "id": 0,
-                    "txt": "dungeness"
+                    "text": "dungeness"
                 },
                 {
                     "id": 1,
-                    "txt": "beach"
+                    "text": "beach"
                 },
                 {
                     "id": 2,
-                    "txt": "windswept"
+                    "text": "windswept"
                 }
             ],
             "link": "dungeness-12",
@@ -124,15 +124,15 @@
             [
                 {
                     "id": 0,
-                    "txt": "images"
+                    "text": "images"
                 },
                 {
                     "id": 1,
-                    "txt": "responsive"
+                    "text": "responsive"
                 },
                 {
                     "id": 2,
-                    "txt": "flickr"
+                    "text": "flickr"
                 }
             ],
             "link": "flickr-images-for-responsive-sites-11",
@@ -169,19 +169,19 @@
             [
                 {
                     "id": 0,
-                    "txt": "ocean"
+                    "text": "ocean"
                 },
                 {
                     "id": 1,
-                    "txt": "photography"
+                    "text": "photography"
                 },
                 {
                     "id": 2,
-                    "txt": "underwater"
+                    "text": "underwater"
                 },
                 {
                     "id": 3,
-                    "txt": "hawaii"
+                    "text": "hawaii"
                 }
             ],
             "link": "akule-10",
@@ -209,15 +209,15 @@
             [
                 {
                     "id": 0,
-                    "txt": "wimbledoncommon"
+                    "text": "wimbledoncommon"
                 },
                 {
                     "id": 1,
-                    "txt": "pond"
+                    "text": "pond"
                 },
                 {
                     "id": 2,
-                    "txt": "samshepard"
+                    "text": "samshepard"
                 }
             ],
             "link": "wimbledon-common-9",
@@ -245,23 +245,23 @@
             [
                 {
                     "id": 0,
-                    "txt": "express"
+                    "text": "express"
                 },
                 {
                     "id": 1,
-                    "txt": "react"
+                    "text": "react"
                 },
                 {
                     "id": 2,
-                    "txt": "reactrouter"
+                    "text": "reactrouter"
                 },
                 {
                     "id": 3,
-                    "txt": "markdown"
+                    "text": "markdown"
                 },
                 {
                     "id": 4,
-                    "txt": "journal"
+                    "text": "journal"
                 }
             ],
             "link": "this-site-8",
@@ -279,8 +279,9 @@
                 },
                 {
                     "id": 2,
-                    "type": "h2",
-                    "txt": "Process breakdown"
+                    "type": "heading",
+                    "level": "h2",
+                    "text": "Process breakdown"
                 },
                 {
                     "id": 3,
@@ -313,19 +314,19 @@
             [
                 {
                     "id": 0,
-                    "txt": "kensingtonchurch"
+                    "text": "kensingtonchurch"
                 },
                 {
                     "id": 1,
-                    "txt": "greenpark"
+                    "text": "greenpark"
                 },
                 {
                     "id": 2,
-                    "txt": "london"
+                    "text": "london"
                 },
                 {
                     "id": 3,
-                    "txt": "hydepark"
+                    "text": "hydepark"
                 }
             ],
             "link": "a-tuesday-wander-7",
@@ -353,19 +354,19 @@
             [
                 {
                     "id": 0,
-                    "txt": "broadstairs"
+                    "text": "broadstairs"
                 },
                 {
                     "id": 1,
-                    "txt": "northsea"
+                    "text": "northsea"
                 },
                 {
                     "id": 2,
-                    "txt": "beach"
+                    "text": "beach"
                 },
                 {
                     "id": 3,
-                    "txt": "ocean"
+                    "text": "ocean"
                 }
             ],
             "link": "broadstairs-6",
@@ -404,11 +405,11 @@
             [
                 {
                     "id": 0,
-                    "txt": "wimbledon"
+                    "text": "wimbledon"
                 },
                 {
                     "id": 1,
-                    "txt": "wimbledoncommon"
+                    "text": "wimbledoncommon"
                 }
             ],
             "link": "wimbledon-common-5",
@@ -431,15 +432,15 @@
             [
                 {
                     "id": 0,
-                    "txt": "uruguay"
+                    "text": "uruguay"
                 },
                 {
                     "id": 1,
-                    "txt": "beach"
+                    "text": "beach"
                 },
                 {
                     "id": 2,
-                    "txt": "ocean"
+                    "text": "ocean"
                 }
             ],
             "link": "montevideo-uruguay-4",
@@ -462,11 +463,11 @@
             [
                 {
                     "id": 0,
-                    "txt": "theblackhole"
+                    "text": "theblackhole"
                 },
                 {
                     "id": 1,
-                    "txt": "spotmap"
+                    "text": "spotmap"
                 }
             ],
             "link": "disneys-the-black-hole-3",
@@ -529,15 +530,15 @@
             [
                 {
                     "id": 0,
-                    "txt": "nan"
+                    "text": "nan"
                 },
                 {
                     "id": 1,
-                    "txt": "war"
+                    "text": "war"
                 },
                 {
                     "id": 2,
-                    "txt": "hospital"
+                    "text": "hospital"
                 }
             ],
             "link": "nan-2",
@@ -565,19 +566,19 @@
             [
                 {
                     "id": 0,
-                    "txt": "greatgranddad"
+                    "text": "greatgranddad"
                 },
                 {
                     "id": 1,
-                    "txt": "miner"
+                    "text": "miner"
                 },
                 {
                     "id": 2,
-                    "txt": "kent"
+                    "text": "kent"
                 },
                 {
                     "id": 3,
-                    "txt": "dover"
+                    "text": "dover"
                 }
             ],
             "link": "my-great-grandad-george-w-smith-1",
@@ -605,19 +606,19 @@
             [
                 {
                     "id": 0,
-                    "txt": "cow"
+                    "text": "cow"
                 },
                 {
                     "id": 1,
-                    "txt": "dirtycow"
+                    "text": "dirtycow"
                 },
                 {
                     "id": 2,
-                    "txt": "2000"
+                    "text": "2000"
                 },
                 {
                     "id": 3,
-                    "txt": "newyear"
+                    "text": "newyear"
                 }
             ],
             "link": "dirty-cow-0",

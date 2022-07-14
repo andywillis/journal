@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { splitVendorChunkPlugin, defineConfig } from 'vite';
 
-import compress from 'vite-plugin-compression';
+import compress from 'vite-plugin-compress';
 
 export default defineConfig({
   plugins: [ compress(), splitVendorChunkPlugin() ],

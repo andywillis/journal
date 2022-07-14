@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 
-export default function Image(src, alt) {
+export default function Image({ src, alt }) {
   return (`
     <div class="${styles.imageContainer}">
       <img

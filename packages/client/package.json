@@ -10,5 +10,8 @@
   "license": "CC-BY-NC-SA-4.0",
   "dependencies": {
     "classnames": "^2.3.1"
+  },
+  "devDependencies": {
+    "vite-plugin-compress": "^2.1.1"
   }
 }

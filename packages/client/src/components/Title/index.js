@@ -1,3 +1,5 @@
-export default function Title(data) {
-  return `<h3>${data}</h3>`;
+import Heading from '../Heading';
+
+export default function Title(text) {
+  return Heading({ level: 'h1', text });
 }
