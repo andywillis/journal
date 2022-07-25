@@ -21,9 +21,6 @@ export default function createStore(initialState, reducer) {
     });
   }
 
-  return {
-    getState,
-    dispatch
-  };
+  return { state: state.value, dispatch };
 
 }

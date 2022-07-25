@@ -1,5 +1,8 @@
 export const initialState = {
-  journal: []
+  journal: [],
+  entry: null,
+  page: 0,
+  tag: null
 };
 
 export default function reducer(state, action) {
@@ -8,11 +11,20 @@ export default function reducer(state, action) {
 
   switch (type) {
 
-    case 'storeJournal': {
-      return {
-        ...state,
-        journal: payload
-      };
+    case 'setJournal': {
+      return { ...state, journal: payload };
+    }
+
+    case 'setEntry': {
+      return { ...state, entry: payload };
+    }
+
+    case 'setTag': {
+      return { ...state, tag: payload };
+    }
+
+    case 'setPage': {
+      return { ...state, page: payload };
     }
 
   }
