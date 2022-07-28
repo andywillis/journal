@@ -14,7 +14,7 @@
     "coverage": "vitest run --coverage"
   },
   "workspaces": [
-    "./packages/*"
+    "./packages/**"
   ],
   "dependencies": {
     "concurrently": "^7.1.0"
