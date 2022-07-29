@@ -13,9 +13,6 @@
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
-  "workspaces": [
-    "./packages/**"
-  ],
   "dependencies": {
     "concurrently": "^7.1.0"
   },
