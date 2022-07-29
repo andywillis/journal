@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [ compress(), splitVendorChunkPlugin() ],
   root: 'src',
   server: {
+    port: 3000,
     proxy: {
       '/journal': {
         target: 'http://localhost:4000',
